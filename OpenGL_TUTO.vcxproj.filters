@@ -32,10 +32,23 @@
     <ClInclude Include="stb_image.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\3.3.shader.fs" />
-    <None Include="shaders\3.3.shader.vs" />
+    <None Include="shaders\3.3.shader.fs">
+      <Filter>리소스 파일\Shaders</Filter>
+    </None>
+    <None Include="shaders\3.3.shader.vs">
+      <Filter>리소스 파일\Shaders</Filter>
+    </None>
+    <None Include="lightingShader.vs">
+      <Filter>리소스 파일\Shaders</Filter>
+    </None>
+    <None Include="lightingShader.fs">
+      <Filter>리소스 파일\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\container.jpg">
