@@ -158,10 +158,10 @@
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="lightingShader.fs" />
-    <None Include="lightingShader.vs" />
     <None Include="shaders\3.3.shader.fs" />
     <None Include="shaders\3.3.shader.vs" />
+    <None Include="shaders\lightingShader.fs" />
+    <None Include="shaders\lightingShader.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\container.jpg" />
